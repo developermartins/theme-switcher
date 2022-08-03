@@ -1,5 +1,7 @@
 import 'styled-components';
 
+// types para estilos;
+
 declare module 'styled-components' {
     export interface DefaultTheme {
         title: string,
