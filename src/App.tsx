@@ -4,7 +4,7 @@ import { ThemeProvider, DefaultTheme } from 'styled-components';
 import light from './styles/themes/light';
 import dark from  './styles/themes/dark';
 import usePersistedState from './utils/usePersistedState';
-import Card from './components/Card';
+import ContentSection from './pages/Content';
 
 function App() {
 
@@ -19,12 +19,10 @@ function App() {
         <ThemeProvider theme={theme}>
           <GlobalStyle />
           <Header toggleTheme={toggleTheme} />
-          <Card />
+          <ContentSection />
         </ThemeProvider>
     </div>
   );
-}
-
-
+};
 
 export default App;
