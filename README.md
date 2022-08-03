@@ -2,7 +2,7 @@
 
 ## About
 
-A simple react theme switcher using React Hooks, styled-components, react-switch, react-icons and TypeScript.
+A simple react theme switcher using React, React Hooks, styled-components, react-switch, react-icons and TypeScript.
 
 ## Preview
 
