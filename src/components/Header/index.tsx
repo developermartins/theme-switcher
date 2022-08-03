@@ -9,8 +9,7 @@ const Header: React.FC = () => {
     <Container>
         Hi
     </Container>
-
-  )
-}
+  );
+};
 
 export default Header;
