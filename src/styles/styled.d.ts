@@ -2,14 +2,14 @@ import 'styled-components';
 
 declare module 'styled-components' {
     export interface DefaultTheme {
-        title: String,
+        title: string,
 
         colors: {
-            primary: String,
-            secundary: String,
+            primary: string,
+            secundary: string,
 
-            background: String,
-            text: String,
+            background: string,
+            text: string,
         },
     }
 }
