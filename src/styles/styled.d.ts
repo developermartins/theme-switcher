@@ -14,6 +14,7 @@ declare module 'styled-components' {
 
 
             background: string,
+            cardBackground: string,
             text: string,
         },
     }

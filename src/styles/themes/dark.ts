@@ -8,6 +8,7 @@ export default {
         themeOff: '#A393BF',
 
         background: '#0C0910',
+        cardBackground: '#453750',
         text: '#fff',
     },
 };
