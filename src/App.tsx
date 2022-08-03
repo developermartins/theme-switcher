@@ -15,9 +15,9 @@ function App() {
 
   return (
     <div className="App">
-        <ThemeProvider theme={light}>
+        <ThemeProvider theme={theme}>
           <GlobalStyle />
-          <Header />
+          <Header toggleTheme={toggleTheme} />
         </ThemeProvider>
     </div>
   );
