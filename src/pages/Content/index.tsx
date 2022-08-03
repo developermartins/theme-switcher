@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Card from '../../components/Card';
 import { ContentSection } from './styles';
 
@@ -7,7 +7,7 @@ const Content = () => {
     <ContentSection>
         <Card />
     </ContentSection>
-  )
-}
+  );
+};
 
 export default Content;
